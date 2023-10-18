@@ -153,3 +153,102 @@ photos {
   padding: 10rem 0;
 
 }
+/* Wrapper for the slider */
+.slider-wrapper {
+  position: relative;
+}
+
+/* Styling for the slider buttons */
+.slider-wrapper .slide-button {
+  position: absolute;
+  top: 50%;
+  height: 50px;
+  width: 50px;
+  background: white;
+  border: none;
+  outline: none;
+  font-size: 2.2rem;
+  border-radius: 50%;
+  transform: translateY(-50%);
+}
+
+/* Hover effect for slider buttons */
+.slider-wrapper .slide-button:hover {
+  background: pink;
+}
+
+/* Styling for the previous slide button */
+.slider-wrapper .slide-button#prev-slide {
+  left: -20px;
+}
+
+/* Styling for the next slide button */
+.slider-wrapper .slide-button#next-slide {
+  right: -20px;
+}
+
+/* Container for the photo list */
+.slider-wrapper .photo-list {
+  display: grid;
+  gap: 18px;
+  font-size: 0;
+  margin-bottom: 30px;
+  overflow-x: auto;
+  scrollbar-width: none;
+  grid-template-columns: repeat(10, 1fr);
+  align-items: center;
+}
+
+/* Hide scrollbar for WebKit browsers */
+.slider-wrapper .photo-list::-webkit-scrollbar {
+  display: none;
+}
+
+/* Styling for individual images in the photo list */
+.slider-wrapper .photo-list .image-item {
+  width: 325px;
+  height: 400px;
+  object-fit: cover;
+}
+
+/* Container for the slider scrollbar */
+.pic_container .slider-scrollbar {
+  height: 24px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+/* Styling for the scrollbar track */
+.slider-scrollbar .scrollbar-track {
+  height: 2px;
+  width: 100%;
+  background: #ccc;
+  position: relative;
+  border-radius: 4px;
+}
+
+/* Hover effect for scrollbar track */
+.slider-scrollbar:hover .scrollbar-track {
+  height: 4px;
+}
+
+/* Styling for the scrollbar thumb */
+.slider-scrollbar .scrollbar-thumb {
+  position: absolute;
+  height: 100%;
+  width: 50%;
+  background: #000;
+  border-radius: inherit;
+  cursor: grab;
+}
+
+/* Styling for the scrollbar thumb pseudo-element */
+.slider-scrollbar .scrollbar-thumb::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: -10px;
+  bottom: -10px;
+}
