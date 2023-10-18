@@ -142,9 +142,9 @@ photos {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 90%;
+  height: 0%;
   background: #000000;
-  padding: 5 rem;
+  padding: 5rem;
 }
 
 .pic_container {
@@ -251,13 +251,16 @@ photos {
   top: -10px;
   bottom: -10px;
 }
+
  /* Profile Section */
 
  #profile {
   display: flex;
   justify-content: center;
   gap: 5rem;
-  height: 50vh;
+  background-color: white;
+  height: 70vh;
+  padding-bottom: 0;
 }
 
 .section__pic-container {
