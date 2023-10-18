@@ -136,3 +136,20 @@
 .highlight {
   border-bottom: 4px solid rgb(132, 0, 225);
 }
+
+/*Pics*/
+photos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+  background: #000000;
+
+}
+
+.pic_container {
+  max-width: 1200px;
+  width: 95%;
+  padding: 10rem 0;
+
+}
