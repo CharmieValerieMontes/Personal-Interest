@@ -144,15 +144,13 @@ photos {
   align-items: center;
   height: 90%;
   background: #000000;
-  padding: 15rem;
-
+  padding: 5rem;
 }
 
 .pic_container {
   max-width: 1200px;
   width: 95%;
   padding: 10rem 0;
-
 }
 /* Wrapper for the slider */
 .slider-wrapper {
@@ -255,10 +253,14 @@ photos {
 }
 
 /* Container for the footer */
+footer{
+  height:7vh
+}
 .footer_container {
   width: 100%;
-    padding: 5% 50px;
-    background-color: white;
+  margin:auto;
+  padding: 50px 30px;
+  background-color: white;
 }
 
 /* Styling for social icons */
