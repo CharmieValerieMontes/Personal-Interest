@@ -79,3 +79,60 @@
   transition: all 0.3s ease;
   text-decoration: none;
 }
+/* Styling for the hero section */
+.hero {
+  background: #000000;
+  background: linear-gradient(to right, #161616, #000000);
+  padding: 200px 0;
+}
+
+/* Styling for the container within the hero section */
+.hero_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  text-align: center;
+  margin: 0 auto;
+  height: 90%;
+  padding: 30px;
+}
+
+/* Styling for the main heading within the hero section */
+.hero_heading {
+  font-size: 150px;
+  margin-bottom: 24px;
+  color: #fff;
+}
+
+/* Styling for the span within the main heading for gradient effect */
+.hero_heading span {
+  background: #ee0979;
+  background: -webkit-linear-gradient(to right, #ff6a00, #ee0979);
+  background: linear-gradient(to right, #ff6a00, #ee0979);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+/* Styling for the description within the hero section */
+.hero_description {
+  font-size: 60px;
+  background: #da22ff;
+  margin-bottom: 15rem;
+  background: -webkit-linear-gradient(to right, #9114ff, #ee0979);
+  background: linear-gradient(to right, #9114ff, #ee0979);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+/* Styling for a highlight effect with a purple underline */
+.highlight {
+  border-bottom: 4px solid rgb(132, 0, 225);
+}
