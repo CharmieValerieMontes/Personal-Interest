@@ -144,6 +144,7 @@ photos {
   align-items: center;
   height: 90%;
   background: #000000;
+  padding: 15rem;
 
 }
 
@@ -251,4 +252,63 @@ photos {
   left: 0;
   top: -10px;
   bottom: -10px;
+}
+
+/* Container for the footer */
+.footer_container {
+  width: 100%;
+    padding: 5% 50px;
+    background-color: white;
+}
+
+/* Styling for social icons */
+.social_icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styling for social icon links */
+.social_icon a {
+  text-decoration: none;
+  padding: 10px;
+  background-color: black;
+  margin: 10px;
+  border-radius: 50%;
+}
+
+/* Styling for social icon symbols */
+.social_icon a i {
+  font-size: 2rem;
+  color: white;
+  opacity: 0.9;
+}
+
+/* Hover effect for social icons */
+.social_icon a:hover {
+  background-color: white;
+  transition: 0.5s;
+}
+
+/* Hover effect for social icon symbols */
+.social_icon a:hover i {
+  color: black;
+  transition: 0.5s;
+}
+
+/* Styling for text in the footer */
+.text p {
+  justify-content: center;
+  align-items: center;
+  color: #00dbde;
+  text-align: center;
+  background-image: linear-gradient(to top, #631226 0%, #c6d313 100%);
+  display: flex;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  padding: 10px;
+  font-size: 2.5rem;
+  margin: 10px;
 }
