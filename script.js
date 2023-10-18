@@ -1,4 +1,27 @@
 
+const initSlider = () => {
+    const imageList = document.querySelector(".slider-wrapper .photo-list");
+    const slideButtons = document.querySelectorAll(".slider-wrapper .slide-button");
+    const maxScrollLeft = imageList.scrollWidth - imageList.clientWidth;
+    slideButtons.forEach(button => {
+        button.addEventListener("click", () => {
+            const direction = button.id === "prev-slide" ? -1 : 1;
+            const scrollAmount = imageList.clientWidth * direction;
+            imageList.scrollBy({ left: scrollAmount, behavior: "smooth" });
+            });
+    });
+    const handSlideButtons = () => {
+        slideButtons[0].style.display = imageList.scrollLeft <= 0 ? "none" : "block";
+        slideButtons[1].style.display = imageList.scrollLeft >=  maxScrollLeft ? "none" : "block";
+    }
+
+    imageList.addEventListener("scroll", () => {
+        handSlideButtons();
+    })
+  
+}
+window.addEventListener("load", initSlider);
+
 
 
 // Selecting the mobile menu button
@@ -52,7 +75,7 @@ window.addEventListener('click', highlightMenu);
 
 //close Mobile Menu when clicking menu  item
 const hideMenu = () => {
-    const menuBar = document.querySelector('is-active')
+    const menuBar = document.querySelector('.is-active')
     if (window.innerWidth > 768 && menuBar)
         menu.classList.toggle('is-active');
     menuLinks.classList.remove('active');
