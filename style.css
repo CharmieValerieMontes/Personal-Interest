@@ -259,8 +259,8 @@ photos {
   justify-content: center;
   gap: 5rem;
   background-color: white;
-  height: 70vh;
-  padding-bottom: 0;
+  height: 75vh;
+  margin-bottom: 10px;
 }
 
 .section__pic-container {
