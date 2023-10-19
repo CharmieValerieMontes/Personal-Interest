@@ -5,6 +5,7 @@
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
   scroll-behavior: smooth;
+
 }
 
 /* Styling for the navigation bar */
@@ -83,7 +84,8 @@
 .hero {
   background: #000000;
   background: linear-gradient(to right, #161616, #000000);
-  padding: 200px 0;
+  padding: 15px 0;
+  height: 40%;
 }
 
 /* Styling for the container within the hero section */
@@ -95,8 +97,8 @@
   max-width: 1200px;
   text-align: center;
   margin: 0 auto;
-  height: 90%;
-  padding: 30px;
+  height: auto;
+  padding: 5px;
 }
 
 /* Styling for the main heading within the hero section */
@@ -143,14 +145,14 @@ photos {
   justify-content: center;
   align-items: center;
   height: 0%;
-  background: #000000;
-  padding: 5rem;
+  background:#000000;
+  padding: 2rem;
 }
 
 .pic_container {
   max-width: 1200px;
   width: 95%;
-  padding: 10rem 0;
+  padding: 15rem 0;
 }
 /* Wrapper for the slider */
 .slider-wrapper {
@@ -259,15 +261,18 @@ photos {
   justify-content: center;
   gap: 5rem;
   background-color: white;
-  height: 75vh;
-  margin-bottom: 10px;
+  height: 90vh;
+  margin-bottom: 5rem;
+  margin: 0 auto;
+  align-items: center;
 }
 
 .section__pic-container {
   display: flex;
   height: 400px;
   width: 400px;
-  margin: auto 0;
+  margin: auto 2rem ;
+  padding: 2rem auto;
 }
 
 .section__text {
@@ -305,6 +310,7 @@ photos {
 .icon {
   cursor: pointer;
   height: 3rem;
+  margin-bottom: 5rem;
 }
 
 /* Buttons */

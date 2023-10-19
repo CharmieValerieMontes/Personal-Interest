@@ -126,8 +126,6 @@
       justify-content: center;
       margin-top: 1rem;
       gap: 1rem;
-
-      margin-bottom: 5px;
   }
 
 
@@ -138,7 +136,7 @@
 /* Media query for smaller screens */
 @media screen and (max-width: 768px) {
   .footer_container {
-    padding: 30px 15px;
+    padding: 1s0px 15px;
     /* Adjust padding for smaller screens */
   }
 
