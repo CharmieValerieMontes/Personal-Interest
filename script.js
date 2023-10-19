@@ -1,4 +1,3 @@
-
 const initSlider = () => {
     const imageList = document.querySelector(".slider-wrapper .photo-list");
     const slideButtons = document.querySelectorAll(".slider-wrapper .slide-button");
@@ -83,7 +82,4 @@ const hideMenu = () => {
 menuLinks.addEventListener('click', hideMenu);
 navlogo.addEventListener('click', hideMenu);
 
-
-
-    
 
