@@ -144,15 +144,16 @@ photos {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 0%;
+  height: 5%;
   background:#000000;
-  padding: 2rem;
+  padding: 1rem,;
+  width: 100%;
 }
 
 .pic_container {
   max-width: 1200px;
-  width: 95%;
-  padding: 15rem 0;
+  width: 100%;
+  padding: 10rem 0;
 }
 /* Wrapper for the slider */
 .slider-wrapper {

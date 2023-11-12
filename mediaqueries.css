@@ -95,7 +95,7 @@
     grid-template-columns: 1fr;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    max-width:100%;
     margin: 0 auto;
     height: 90%;
   }
@@ -137,11 +137,15 @@
 @media screen and (max-width: 768px) {
   .footer_container {
     padding: 1s0px 15px;
+    justify-content: center;
+    
+
     /* Adjust padding for smaller screens */
   }
 
   .social_icon a {
     padding: 8px;
+    max-width: fit-content;
     /* Adjust social icon padding for smaller screens */
   }
 
